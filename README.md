@@ -18,7 +18,7 @@ Its a binary classification dataset. The two classes are **Normal** and **Pneumo
 
 Below is the data distribution of the dataset.
 
-![Dataset-distribution](dataset.jpeg)
+![Dataset-distribution](dataset.jpg)
 
 
 ## Parameters
