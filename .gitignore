@@ -99,7 +99,7 @@ ENV/
 .mypy_cache/
 
 # Images
-/chest_xray/*.jpeg
+*.jpeg
 
 # Mac specific
 .DS_Store
