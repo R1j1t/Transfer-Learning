@@ -13,7 +13,7 @@ This dataset is avilable on Kaggle [here](https://www.kaggle.com/paultimothymoon
 
 I have used [Xception model](https://keras.io/applications/#xception) (not because of the name) trained on Imagenet as the base model, and implemented the code in Keras with Tensorflow backend. So, lets start with the dataset and then I will move on to the code:
 
-Its a binary classification dataset. The two classes are **Normal** and **Pneumonia**.  
+Its a binary classification dataset of chest Xrays divided into two classes, **Normal** and **Pneumonia**. The below image is taken from kaggle. The left image is of a normal X-ray and the other two X-rays have Pneumonia. 
 ![Dataset](https://i.imgur.com/jZqpV51.png)
 
 Below is the data distribution of the dataset.
