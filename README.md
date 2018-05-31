@@ -6,7 +6,22 @@ So the big advantages which transfer learning offers are:
 - Works even if data is less, like in this case the training size is 5000 images
 - Training is fast as the base model is already trained for generic feature extraction
 
-Coming to this dataset,
+Before coming to this dataset, I would like to point out the directory structure used for this training. Here folder `NORMAL` and `PNEUMONIA`, will conatin the images which can be downloaded from kaggle (Link below).
+
+```
+├── chest_xray
+│   ├── test
+│   │   ├── NORMAL
+│   │   └── PNEUMONIA
+│   ├── train
+│   │   ├── NORMAL
+│   │   └── PNEUMONIA
+│   └── val
+│       ├── NORMAL
+│       └── PNEUMONIA
+├── chest_xray.h5
+└── chest_xray.py
+```
 
 ## Prediciting Pneumonia with the help of transfer Learning
 This dataset is avilable on Kaggle [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). The motivation for me here was to implement transfer learning. I was doing a tutorial on it, and thought of using a dataset from kaggle and hence this repository. I have made this code avilable as a [notebook](https://www.kaggle.com/goelrajat/prediciting-pneumonia-from-chest-xray).
