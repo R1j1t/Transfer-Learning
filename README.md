@@ -60,7 +60,7 @@ This was interesting part, and the only requirment for me was the `LossHistory` 
 ![accuracy](accuracy.png)
   These are only two plots which came to my mind.
 
-I achieved **81% accuracy** on test data and 99.9% accuracy on training data.
+I achieved **86.6% accuracy** on test data and 99.9% accuracy on training data.
 If you have any question, let me know by opening a new issue. Thanks!
 
 ## References
